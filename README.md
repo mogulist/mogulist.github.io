@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## About
 Monochrome is a minimal, responsive, ready to use Jekyll theme for blogging. [Demo](https://dyutibarma.github.io/monochrome/)
 (Built on top of Emerald Jekyll theme)
@@ -129,3 +130,6 @@ To maintain the vertical rhythm, it has been applied a **Typographic scale** as 
 
 ## License
 Released under [MIT License](license.md).
+=======
+# mogulist.github.io
+>>>>>>> Initial commit
