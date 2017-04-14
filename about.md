@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About Monochrome
 description: This page describes monochrome.
 ---
