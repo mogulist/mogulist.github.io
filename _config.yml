@@ -1,11 +1,11 @@
 # Site settings
 title: Herbert Lim Blog
 description: "Things about software"
-url: "http://mogulist.github.io/monochrome"
+url: "http://mogulist.github.io"
 author:
-  name: "The Review Index"
+  name: "Herbert Lim"
   email: "mogulist@naver.com"
-  url: "https://mogulist.github.io/monochrome"
+  url: "https://mogulist.github.io"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
