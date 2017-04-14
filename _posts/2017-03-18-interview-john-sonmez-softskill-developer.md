@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 소프트웨어 개발자의 조직역량에 대한 책의 저자 John Sonmez와의 인터뷰
 header: InfoQ | 소프트웨어 개발자의 조직역량에 대한 책의 저자 John Sonmez와의 인터뷰
 permalink: infoq-interview-john-sonmez-softskill-developer

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Git 처음 사용자의 이해 돕기
 header: Git 처음 사용자의 이해를 돕기 위한 그림
 permalink: git-basics-diagram

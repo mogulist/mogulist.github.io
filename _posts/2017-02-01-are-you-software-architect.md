@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: InfoQ | Are you a Software Architect? 나는 소프트웨어 아키텍트일까?
 header: InfoQ | Are you a Software Architect? 나는 소프트웨어 아키텍트일까?
 permalink: infoq-are-you-a-software-architect
