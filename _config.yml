@@ -36,4 +36,4 @@ version: "1.0.0"
 # Options
 custom_header: true
 custom_nav_footer: true
-reverse: true
+reverse: false
