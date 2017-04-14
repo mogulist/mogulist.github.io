@@ -10,7 +10,7 @@ header: InfoQ | 소프트웨어 개발자의 조직역량에 대한 책의 저�
 
 > "Soft skills are a combination of interpersonal people skills, social skills, communication skills, character traits, attitudes, career attributes[1] and emotional intelligence quotient (EQ) among others that enable people to effectively navigate their environment, work well with others, perform well."   
 >    -- Wikipedia
-![](./img/170101/softskills_hardskills.png)
+
 <img src="./img/170101/softskills_hardskills.png" width="500px">
 
 John Somez와 인터뷰 중 핵심 내용만 요약해본다. 한국 현실에도 맞는 것일지 생각해보게 하는 것도 있고,  상투적인 내용도 있다. 여러 내용 중 개발자의 전문성의 의미, 일과를 만들고 규칙적으로 생활하는 습관, 그리고 건강에 대한 강조가 한 번 되새겨 볼 만하다.
