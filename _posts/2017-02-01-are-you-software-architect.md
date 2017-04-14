@@ -2,6 +2,8 @@
 layout: post
 title: InfoQ | Are you a Software Architect? 나는 소프트웨어 아키텍트일까?
 header: InfoQ | Are you a Software Architect? 나는 소프트웨어 아키텍트일까?
+permalink: infoq-are-you-a-software-architect
+tags: 
 ---
 
 이 글은 2010년 2월 9일 InfoQ에 게재된 Simon Brown의 글을 일부 번역한 것입니다. [[원문 보기](https://www.infoq.com/articles/brown-are-you-a-software-architect#anch53080)]
@@ -35,7 +37,8 @@ header: InfoQ | Are you a Software Architect? 나는 소프트웨어 아키텍�
 > 흔히 사용자에게 어떤 기능(feature)을 원하는지 물어보기는 하지만, 시스템의 품질처럼 어떤 비기능적 요구사항이 필요한지 물어보는 경우는 드물다. 이해당사자가 "시스템은 아주 빨라야 한다"고 하지만 이건 너무 주관적이다. 비기능적 요구사항은 구체적이고 측정가능하며 도달가능하고 테스트 가능해야 한다. 그래야 만족시킬 수 있다. 대부분의 비기능적 요구사항은 기술적 측면이 강하고 소프트웨어 아키텍처에 큰 영향을 미친다. 비기능적 요구사항을 이해하는 것은 소프트웨어 아키텍트에게 중요한 역할이다. 
 
 아래 그림은 아키텍트의 비기능적 요구사항의 관리 수준을 보여준다. 왼쪽이 낮은 수준이고 오른쪽이 높은 수준이다. 비기능적 요구사항을 추측하기만 하는 것은 낮은 수준이고, 사용자 또는 이해당사자로부터 비기능적 요구사항을 도출한 것이 중간 수준(Captured)이다. 그리고, 맨 오른쪽은 비기능적 요구사항을 시험하고 평가하여 개선까지하는 수준을 나타낸다.
-![](./img/170101/architecture-definition-1.png)
+
+![]({{ site.url}}/img/170101/architecture-definition-1.png)
 
 ### 두번째, 아키텍처 정의하기
 
