@@ -23,9 +23,8 @@ header: InfoQ | Are you a Software Architect? 나는 소프트웨어 아키텍�
   - QA
   - 설계, 개발, 테스팅
 
->소프트웨어 아키텍쳐와 소프트웨어 개발을 구분하는 뚜렷한 경계선이 있을까. 아키텍쳐는 개발자의 설계 과정의 확장일 뿐이라서 경계선이 없다는 견해도 있고, 대단한 개발자만이 아키텍트라는 경계선을 넘어설 수 있기에 개발자와 아키텍트 간에는 엄청난 간극이 존재한다는 견해도 있다.
->
->소프트웨어 아키텍처, 설계(design), 개발(development)을 구분하는 중요 요소에는 규모의 증가(increase in scale), 추상화 수준의 증가(increase in the level of abstraction), 올바른 설계 결정의 중요성 증가(increase in the significance of making the right design decisions)가 있다.
+>소프트웨어 아키텍쳐와 소프트웨어 개발을 구분하는 뚜렷한 경계선이 있을까. 아키텍쳐는 개발자의 설계 과정의 확장일 뿐이라서 경계선이 없다는 견해도 있고, 대단한 개발자만이 아키텍트라는 경계선을 넘어설 수 있기에 개발자와 아키텍트 간에는 엄청난 간극이 존재한다는 견해도 있다.    
+>   소프트웨어 아키텍처, 설계(design), 개발(development)을 구분하는 중요 요소에는 규모의 증가(increase in scale), 추상화 수준의 증가(increase in the level of abstraction), 올바른 설계 결정의 중요성 증가(increase in the significance of making the right design decisions)가 있다.
 소프트웨어 아키텍처는 소프트웨어 시스템 전체가 어떻게 동작하는지 알려주는 큰 그림이고 전체적인 조망(holistic view)에 관련된 모든 것이다. 이 정의가 소프트웨어 개발과 아키텍처의 차이를 이해하는데 도움은 주지만, 개발자가 어떻게 아키텍트가 될 수 있는지에 대한 설명으로는 부족하다. 또한, 누가 좋은 소프트웨어 아키텍트가 될 수 있는지, 어떻게 아키텍트를 채용해야 하는지, 내가 소프트웨어 아키텍트인지 여부를 판별하는데에는 별다른 도움이 안된다.
 
 
