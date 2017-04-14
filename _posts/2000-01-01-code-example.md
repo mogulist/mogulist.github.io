@@ -36,3 +36,35 @@ def hello
 end
 
 {% endhighlight %}
+
+{% highlight java linenos %}
+       http.get(fullUri, (res) => {
+            const statusCode = res.statusCode;
+            const contentType = res.headers['content-type'];
+            var responseBody = "";
+
+            //console.log("Response from server started.");
+            console.log(`Server Status: ${res.statusCode} `);
+            console.log("Response Headers: %j", res.headers);
+
+            res.setEncoding("UTF-8");
+
+            res.once("data", function(chunk) {
+                console.log(chunk);
+            });
+
+            res.on("data", function(chunk) {
+                console.log(`--chunk-- ${chunk.length}`);
+                responseBody += chunk;
+            });
+
+            res.on("end", function() {
+                fs.writeFile("res.json", responseBody, function(err) {
+                    if (err) {
+                        throw err;
+                    }
+                    console.log("File Downloaded");
+                });
+            });
+
+{% endhighlight %}
