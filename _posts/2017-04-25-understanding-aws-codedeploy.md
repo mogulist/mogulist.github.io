@@ -32,7 +32,7 @@ AppSpec.yml은 CodeDeploy를 위한 작업 지시서이다. AppSpec.yml에는 �
 
 ### Application, Deployment Group, Deployment
 -----------
-CodeDeploy를 설정하기 위해서는 Application, Deployment Group, Deployment의 개념과 차이를 이해해야 한다. 디플로이와 관련된 설정을 반복적으로 재활용하기 좋게 하기 위하여 나눠 놓은 개념이다. 
+CodeDeploy를 설정하기 위해서는 Application, Deployment Group, Deployment의 세 가지 컴포넌트의 차이를 이해해야 한다. 디플로이와 관련된 설정을 반복적으로 재활용하기 좋게 하기 위하여 나눠 놓은 것이다. 
 
 아래 그림에서 처럼, Application 은 어떤 소프트웨어를 배포하는지 여부와 관련된 설정을 담고 있다. Deployment Group은 디플로이할 대상이 되는 서버 인스턴스들을 의미하며 디플로이 방식과 관련된 설정도 갖는다. 마지막으로 Deployment는 실제 디플로이가 실행되는 단위로써 소프트웨어의 어떤 리비전을 어느 Deployment Gruop에게 디플로이하고 실행하는 지에 대한 정보를 갖는다.
 
