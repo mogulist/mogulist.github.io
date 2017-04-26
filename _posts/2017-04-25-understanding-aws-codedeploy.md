@@ -17,7 +17,7 @@ CodeDeploy를 활용하기 전에 CodeDeploy와 관련된 개념들을 이해하
     1. WAS를 정지 시킨다
     2. 소스의 내용을 WAS의 폴더로 복사한다
     3. WAS를 시작시킨다
-<img src="img/170425-codedeploy-overall-01.png" width="890px">
+<img src="img/201704/170425-codedeploy-overall-01.png" width="890px">
 
 CodeDeploy 서비스는 S3나 GitHub로부터 빌드 산출물 아카이브를 가져와서 서버에 디플로이한다. CodeDeploy는 빌드 기능은 없기 때문에 빌드가 필요한 애플리케이션은 반드시 CodeBuild나 별도의 빌드 과정을 통해서 빌드가 완료된 상태여야 하며, S3 Bucket을 활용하는 경우 빌드 산출물은 하나의 파일로 아카이브된 상태여야 한다.
 
@@ -36,17 +36,17 @@ CodeDeploy를 설정하기 위해서는 Application, Deployment Group, Deploymen
 
 아래 그림에서 처럼, Application 은 어떤 소프트웨어를 배포하는지 여부와 관련된 설정을 담고 있다. Deployment Group은 디플로이할 대상이 되는 서버 인스턴스들을 의미하며 디플로이 방식과 관련된 설정도 갖는다. 마지막으로 Deployment는 실제 디플로이가 실행되는 단위로써 소프트웨어의 어떤 리비전을 어느 Deployment Gruop에게 디플로이하고 실행하는 지에 대한 정보를 갖는다.
 
-<img src="img/170425-codedeploy-overall-02.png" width="880px">
+<img src="img/201704/170425-codedeploy-overall-02.png" width="880px">
 
 "상품관리"라는 하나의 소프트웨어 애플리케이션이 있는 경우, 이 애플리케이션을 위한 운영 서버 인스턴스들, 스테이징 서버 인스턴스들, Feature-X를 위한 테스트 서버 인스턴스들, Feature-Y를 위한 테스트 서버 인스턴스들 등, 다양한 인스턴스들이 존재할 수 있을 것이다. 각각을 미리 Deployement Group으로 설정을 만들어 둔다면, 즉 운영 Deployment Gruop, 스테이징 Deployment Group, Feature-X Deployment Group과 같이 만들어 둔다면, 리비전과 Deployment Group을 지정함으로써 신속히 Deployment를 만들어 디플로이 작업을 실행할 수 있다. 이와 같은 편의를 위하여 Deployment Group이 별도록 존재하는 것이다.
 
 다음 그림처럼, 하나의 Application은 여러 Deployment Group을 가질 수 있다. 리비전과 Deployment Group을 조합하여 Deployment가 만들어지고 디플로이 작업이 실행된다. 동일한 리비전과 동일한 Deployment Group을 지정하여 여러 번 디플로이할 수 있므며 이 때마다 Deployment는 새롭게 생성되고 실행된다.
 
-<img src="img/170425-codedeploy-overall-03.png" width="880px">
+<img src="img/201704/170425-codedeploy-overall-03.png" width="880px">
 
 다음 그림은 여러 브랜치가 있는 경우를 보여준다. 하나의 소프트웨어라도 여러 브랜치를 가질 수 있다. Master 브랜치는 Production Deployment Group에, Develop 브랜치는 Staging, Test1, Test2와 같은 여러 Deployment Group에, Feature-X 브랜치는 Feature-X Deployment Group에 지정되어 디플로이되고 실행되도록 할 수 있을 것이다.
 
-<img src="img/170425-codedeploy-overall-04.png" width="820px">
+<img src="img/201704/170425-codedeploy-overall-04.png" width="820px">
 
 
 ### CodeDeploy 준비 및 실행 절차
@@ -56,7 +56,7 @@ CodeDeploy를 설정하기 위해서는 Application, Deployment Group, Deploymen
 - EC2 인스턴스에 배포하는 경우로 한정한다. (소스코드를 EC2 인스턴스 뿐만 아니라 Auto scaling group에도 배포할 수 있음)
 - 사용자는 AWS 계정이 있으며 관련 서비스에 접근권한이 있다.
 
-<img src="img/170425-codedeploy-steps-01.png" width="760px">
+<img src="img/201704/170425-codedeploy-steps-01.png" width="760px">
 
 준비 과정을 미리 훑어보도록 하자.
 
