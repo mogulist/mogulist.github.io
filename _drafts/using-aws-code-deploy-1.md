@@ -17,6 +17,7 @@ permalink:
 - InstanceRole : IAM Role
 - **InstanceRoleInstanceProfile : IAM InstanceProfile**
 - **InstanceRolePolicies : IAM Policy**
+- CodeDeploy와 EC2 인스턴스는 같은 리전에 있어야 한다. Seoul 리전에 설치한다
 
 첫번째 권한 설정 관련하여 다음 3가지를 해본다.
 - 1.1 CodeDeploy를 위한 Service Role 만들기
