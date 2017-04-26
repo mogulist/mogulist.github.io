@@ -101,3 +101,6 @@ Role 이름을 **MyCodeDeploy-EC2-Instance-Profile**로 입력하고 `Create rol
 
 이로써 **MyCodeDeployRole**과 **MyCodeDeploy-EC2-Instance-Profile**의 2 개 Role이 생성되었다.
 <img src="./img/2017-04-25_create_instance_profile_9.png" width="500px">
+
+-------
+이 글의 내용은 AWS CodeDeploy User Guide, [Getting Started](http://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-codedeploy.html)의 [Step 3](http://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-service-role.html)와 [Step 4](http://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-iam-instance-profile.html)를 참고하였음
