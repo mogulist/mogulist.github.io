@@ -18,7 +18,13 @@ permalink:
 - **InstanceRoleInstanceProfile : IAM InstanceProfile**
 - **InstanceRolePolicies : IAM Policy**
 
+첫번째 권한 설정 관련하여 다음 3가지를 해본다.
+- 1.1 CodeDeploy를 위한 Service Role 만들기
+- 1.2 IAM Instance Profile을 위한 Permission Policy 만들기
+- 1.3 EC2를 위한 IAM Instance Profile 만들기
+
 ### 1.1 CodeDeploy를 위한 Service Role 만들기
+
 ---------
 이 Service Role은 CodeDeploy가 EC2 인스턴스들이나 Auto Scaling Group과 같은 서비스를 접근할 수 있게 해준다.
 
