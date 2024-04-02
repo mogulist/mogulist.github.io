@@ -18,15 +18,14 @@ paginate_path: /page:num/
 
 # Default values
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
